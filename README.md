@@ -1,16 +1,6 @@
 # Asal Meskin — Academic Homepage
 
-A compact academic homepage built with the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme and customized for publications, research internships, honors, and academic links.
-
-## Included in this version
-
-- Cropped profile photograph from the supplied image
-- Institution badges for EPFL, Yale, QCRI, and Sharif University
-- Compact research-interest cards
-- Publications with arXiv links
-- Research internships with dates, supervisors, and topic tags
-- Selected honors
-- Responsive mobile layout and automatic dark mode
+A compact academic homepage built with the [Minimal Light](https://github.com/yaoyao-liu/minimal-light) Jekyll theme.
 
 ## Publish on GitHub Pages
 
@@ -24,12 +14,10 @@ The site will be available at `https://asalmeskin.github.io/` after GitHub finis
 
 ## Main files to edit
 
-- `_config.yml`: identity, affiliation, email, profile links, SEO, and avatar path.
-- `index.md`: research interests, publications, internships, and honors.
-- `assets/css/style.scss`: layout, spacing, typography, logo sizes, mobile behavior, and dark mode.
-- `assets/img/avatar.png`: displayed profile image.
-- `assets/img/avatar-original.jpg`: original supplied photograph retained for future recropping.
-- `assets/img/institutions/`: lightweight institution badges used throughout the page.
+- `_config.yml`: name, affiliation, email, profile links, SEO, and avatar path.
+- `index.md`: page content, publications, internships, and honors.
+- `assets/css/style.scss`: spacing, typography, cards, mobile layout, and dark-mode refinements.
+- `assets/img/avatar.png`: replace this monogram with a square profile photo using the same filename.
 
 ## Local preview
 
