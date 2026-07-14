@@ -19,7 +19,7 @@ I study Computer Engineering at Sharif University of Technology. My research int
     <div><span>Current</span><strong>Summer@EPFL · MLBIO</strong></div>
   </div>
   <div class="fact-card">
-    <img class="fact-icon" src="{{ '/assets/img/institutions/sharif.svg' | relative_url }}" alt="Sharif University logo">
+    <img class="fact-icon" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Sharif University logo">
     <div><span>Degree</span><strong>B.Sc. Computer Engineering</strong></div>
   </div>
   <div class="fact-card">
@@ -106,7 +106,7 @@ I study Computer Engineering at Sharif University of Technology. My research int
   <article class="experience-item">
     <div class="experience-topline">
       <div class="institution-block">
-        <img class="institution-logo" src="{{ '/assets/img/institutions/yale.svg' | relative_url }}" alt="Yale University logo">
+        <img class="institution-logo" src="{{ '/assets/img/institutions/yale.png' | relative_url }}" alt="Yale University logo">
         <div class="institution-copy"><strong>Yale University · NLP Lab</strong><span>Research Internship</span></div>
       </div>
       <time>Jan 2026 — May 2026</time>
@@ -172,11 +172,11 @@ I study Computer Engineering at Sharif University of Technology. My research int
     <div><strong>Summer@EPFL</strong><span>ML4ED Research Intern · 2025</span></div>
   </div>
   <div class="honor-item">
-    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.svg' | relative_url }}" alt="Academic honor icon">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Academic honor icon">
     <div><strong>Top 0.01%</strong><span>Rank 13 · National Entrance Exam</span></div>
   </div>
   <div class="honor-item">
-    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.svg' | relative_url }}" alt="Academic honor icon">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Academic honor icon">
     <div><strong>Top 0.03%</strong><span>Rank 50 · Foreign Languages Track</span></div>
   </div>
 </div>

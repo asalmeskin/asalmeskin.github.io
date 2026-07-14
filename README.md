@@ -45,3 +45,7 @@ Open `http://localhost:4000` in a browser.
 ## Theme credit
 
 This repository uses [Minimal Light](https://github.com/yaoyao-liu/minimal-light), released under CC0-1.0.
+
+
+## Logo note
+Institution logos in `assets/img/institutions/` are included for identification on this personal academic website. They were updated to use official/logo-derived marks for EPFL, Yale, QCRI, and Sharif University of Technology.
