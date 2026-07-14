@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Asal Meskin — Computer Engineering researcher working on trustworthy AI, language reasoning, and multimodal intelligence.">
+  <meta name="theme-color" content="#09090f">
+  <title>Asal Meskin · Researcher</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <div class="background-noise" aria-hidden="true"></div>
+  <div class="aurora aurora-one" aria-hidden="true"></div>
+  <div class="aurora aurora-two" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Go to the top">
+      <span class="brand-mark">AM</span>
+      <span class="brand-name">Asal Meskin</span>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#interests">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#experience">Experience</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" aria-label="Switch color theme" title="Switch color theme">
+        <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
+        </svg>
+        <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"></path>
+        </svg>
+      </button>
+
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <nav class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#interests">Research</a>
+    <a href="#publications">Publications</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          Summer@EPFL · MLBIO 2026
+        </div>
+
+        <h1>
+          Building AI that can
+          <span class="gradient-text">reason, explain,</span>
+          and earn trust.
+        </h1>
+
+        <p class="hero-intro">
+          I’m <strong>Asal Meskin</strong>, a Computer Engineering student at
+          Sharif University of Technology. My research spans trustworthy AI,
+          natural language reasoning, multimodal intelligence, and reliable
+          evaluation of foundation models.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#publications">
+            Explore my research
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m9 18 6-6-6-6"></path>
+            </svg>
+          </a>
+          <a class="button button-secondary" href="mailto:asalmskin82@gmail.com">
+            Get in touch
+          </a>
+        </div>
+
+        <div class="social-row" aria-label="Academic profiles">
+          <a href="https://scholar.google.com/citations?user=-LVy7FsAAAAJ" target="_blank" rel="noreferrer">Google Scholar</a>
+          <span>·</span>
+          <a href="https://github.com/asalmskin" target="_blank" rel="noreferrer">GitHub</a>
+          <span>·</span>
+          <a href="https://linkedin.com/in/asal-meskin-2144a025b" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" aria-label="Research profile overview">
+        <div class="orbit-card">
+          <div class="orbit orbit-large"></div>
+          <div class="orbit orbit-small"></div>
+
+          <div class="portrait-core">
+            <span class="portrait-initials">AM</span>
+            <span class="portrait-label">researcher</span>
+          </div>
+
+          <div class="floating-chip chip-one">
+            <span class="chip-icon">R</span>
+            Reasoning
+          </div>
+          <div class="floating-chip chip-two">
+            <span class="chip-icon">V</span>
+            Vision
+          </div>
+          <div class="floating-chip chip-three">
+            <span class="chip-icon">T</span>
+            Trust
+          </div>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric-card">
+            <strong>4</strong>
+            <span>Publications</span>
+          </article>
+          <article class="metric-card">
+            <strong>5</strong>
+            <span>Research experiences</span>
+          </article>
+          <article class="metric-card">
+            <strong>2×</strong>
+            <span>Summer@EPFL</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell section-block">
+      <div class="section-heading reveal">
+        <span class="section-number">01</span>
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Curious across modalities.<br>Rigorous about evidence.</h2>
+        </div>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-statement glass-card reveal">
+          <p class="large-copy">
+            I study how intelligent systems communicate what they know,
+            how faithfully their explanations reflect their internal behavior,
+            and how language and vision models can be evaluated beyond surface-level accuracy.
+          </p>
+          <p>
+            I am particularly interested in building benchmarks, methods, and
+            evaluation frameworks that make AI systems more reliable for people
+            who use them in research, education, and decision-making.
+          </p>
+        </article>
+
+        <aside class="profile-card glass-card reveal">
+          <div class="profile-row">
+            <span>Education</span>
+            <strong>B.Sc. Computer Engineering</strong>
+          </div>
+          <div class="profile-row">
+            <span>University</span>
+            <strong>Sharif University of Technology</strong>
+          </div>
+          <div class="profile-row">
+            <span>GPA</span>
+            <strong>19.72 / 20</strong>
+          </div>
+          <div class="profile-row">
+            <span>Academic rank</span>
+            <strong>5th of 201 students</strong>
+          </div>
+          <div class="profile-row">
+            <span>Based in</span>
+            <strong>Tehran, Iran</strong>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="interests" class="section-shell section-block">
+      <div class="section-heading reveal">
+        <span class="section-number">02</span>
+        <div>
+          <p class="section-kicker">Research interests</p>
+          <h2>Four connected directions.</h2>
+        </div>
+      </div>
+
+      <div class="interest-grid">
+        <article class="interest-card interest-featured reveal">
+          <div class="interest-topline">
+            <span class="interest-index">A</span>
+            <span class="interest-tag">Core focus</span>
+          </div>
+          <h3>Faithful &amp; Trustworthy AI</h3>
+          <p>
+            Confidence expression, interpretability, explanation faithfulness,
+            model reliability, calibration, and evaluation of reasoning systems.
+          </p>
+          <div class="keyword-row">
+            <span>Reliability</span><span>Faithfulness</span><span>Evaluation</span>
+          </div>
+        </article>
+
+        <article class="interest-card reveal">
+          <span class="interest-index">B</span>
+          <h3>Language &amp; Reasoning</h3>
+          <p>
+            Retrieval-augmented generation, educational NLP, language generation,
+            and reasoning-oriented evaluation.
+          </p>
+          <div class="keyword-row">
+            <span>NLP</span><span>RAG</span><span>LRMs</span>
+          </div>
+        </article>
+
+        <article class="interest-card reveal">
+          <span class="interest-index">C</span>
+          <h3>Multimodal Intelligence</h3>
+          <p>
+            Vision-language models, image-to-phrase reasoning, visual puzzle solving,
+            and multilingual multimodal benchmarks.
+          </p>
+          <div class="keyword-row">
+            <span>Vision</span><span>VLMs</span><span>Benchmarks</span>
+          </div>
+        </article>
+
+        <article class="interest-card reveal">
+          <span class="interest-index">D</span>
+          <h3>Recommendation &amp; Retrieval</h3>
+          <p>
+            Explainable recommendation, dense retrieval, user-aligned explanations,
+            and faithful recommendation systems.
+          </p>
+          <div class="keyword-row">
+            <span>RecSys</span><span>IR</span><span>Explainability</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="publications" class="section-shell section-block">
+      <div class="section-heading reveal">
+        <span class="section-number">03</span>
+        <div>
+          <p class="section-kicker">Selected publications</p>
+          <h2>Research at the intersection of<br>reasoning, vision, and trust.</h2>
+        </div>
+      </div>
+
+      <div class="publication-list">
+        <article class="publication-card reveal">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+            <span class="venue-badge spotlight">Spotlight · AI4Good @ ICML</span>
+          </div>
+          <div class="publication-body">
+            <h3>Quantifying Faithful Confidence Expression in Large Reasoning Models</h3>
+            <p class="authors">Ali Gani, <strong>Asal Meskin</strong>, G.K.M. Liu, Arman Cohan</p>
+            <p>
+              Investigates whether verbalized confidence in large reasoning models
+              aligns with correctness and the reliability of the underlying reasoning process.
+            </p>
+            <div class="publication-footer">
+              <span>Under review at NeurIPS 2026</span>
+              <a href="https://arxiv.org/abs/2606.03969" target="_blank" rel="noreferrer">
+                arXiv
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-card reveal">
+          <div class="publication-meta">
+            <span class="publication-year">2025</span>
+            <span class="venue-badge">Recommender systems</span>
+          </div>
+          <div class="publication-body">
+            <h3>FIRE: Faithful Interpretable Recommendation Explanations</h3>
+            <p class="authors">S.M.F. Sani, <strong>Asal Meskin</strong>, Mohammad Amanlou, Hamid R. Rabiee</p>
+            <p>
+              A SHAP-based framework for faithful, interpretable, and user-aligned
+              explanations in recommender systems.
+            </p>
+            <div class="publication-footer">
+              <span>arXiv preprint</span>
+              <a href="https://arxiv.org/abs/2508.05225" target="_blank" rel="noreferrer">
+                arXiv
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-card reveal">
+          <div class="publication-meta">
+            <span class="publication-year">2026</span>
+            <span class="venue-badge">Multimodal benchmark</span>
+          </div>
+          <div class="publication-body">
+            <h3>Eye-Q: A Multilingual Benchmark for Visual Word Puzzle Solving and Image-to-Phrase Reasoning</h3>
+            <p class="authors">Ali Najar, Alireza Mirrokni, A. Izadyari, S. Mohammadian, A.H. Sharifizade, et al.</p>
+            <p>
+              Introduces a multilingual benchmark for evaluating visual word puzzle
+              solving and image-to-phrase reasoning in vision-language models.
+            </p>
+            <div class="publication-footer">
+              <span>arXiv preprint</span>
+              <a href="https://arxiv.org/abs/2601.03400" target="_blank" rel="noreferrer">
+                arXiv
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="publication-card reveal">
+          <div class="publication-meta">
+            <span class="publication-year">2025</span>
+            <span class="venue-badge">Time-series modeling</span>
+          </div>
+          <div class="publication-body">
+            <h3>Hydra: Dual Exponentiated Memory for Multivariate Time Series Analysis</h3>
+            <p class="authors"><strong>Asal Meskin</strong>, Alireza Mirrokni, Ali Najar, Ali Behrouz</p>
+            <p>
+              A dual-headed memory module with two-dimensional recurrence for
+              efficient multivariate forecasting, classification, and anomaly detection.
+            </p>
+            <div class="publication-footer">
+              <span>arXiv preprint</span>
+              <a href="https://arxiv.org/abs/2511.00989" target="_blank" rel="noreferrer">
+                arXiv
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"></path></svg>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="section-shell section-block">
+      <div class="section-heading reveal">
+        <span class="section-number">04</span>
+        <div>
+          <p class="section-kicker">Research internships</p>
+          <h2>Learning through ambitious<br>questions and strong teams.</h2>
+        </div>
+      </div>
+
+      <div class="experience-layout">
+        <div class="timeline-line" aria-hidden="true"></div>
+
+        <article class="experience-card reveal">
+          <div class="timeline-dot"></div>
+          <div class="experience-date">
+            <span>Jul 2026 — Present</span>
+            <span class="current-label">Current</span>
+          </div>
+          <div class="experience-content">
+            <div class="institution-row">
+              <span class="institution-monogram">E</span>
+              <div>
+                <p>EPFL · MLBIO</p>
+                <span>Lausanne, Switzerland</span>
+              </div>
+            </div>
+            <h3>Summer@EPFL Research Internship</h3>
+            <p>
+              Researching machine-learning approaches for spatial and single-cell
+              biological data through the Machine Learning for Biology program.
+            </p>
+            <div class="experience-skills">
+              <span>Machine Learning</span><span>Computational Biology</span><span>Spatial Data</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="timeline-dot"></div>
+          <div class="experience-date">
+            <span>Remote · Ongoing</span>
+          </div>
+          <div class="experience-content">
+            <div class="institution-row">
+              <span class="institution-monogram">Y</span>
+              <div>
+                <p>Yale University · NLP Lab</p>
+                <span>Supervisor: Arman Cohan</span>
+              </div>
+            </div>
+            <h3>Quantifying Faithful Confidence Expression in Large Reasoning Models</h3>
+            <p>
+              Studying whether confidence expressed by reasoning models faithfully
+              reflects correctness, uncertainty, and the reliability of their reasoning.
+            </p>
+            <div class="experience-skills">
+              <span>Reasoning Models</span><span>Confidence</span><span>Evaluation</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="timeline-dot"></div>
+          <div class="experience-date">
+            <span>Mar 2025 — Present</span>
+            <span class="current-label">Remote</span>
+          </div>
+          <div class="experience-content">
+            <div class="institution-row">
+              <span class="institution-monogram">Q</span>
+              <div>
+                <p>Qatar Computing Research Institute</p>
+                <span>Supervisor: Dr. Asgari</span>
+              </div>
+            </div>
+            <h3>Geological Task Taxonomy for Foundation Models</h3>
+            <p>
+              Developing a structured taxonomy and benchmark for geological and
+              map-related tasks, including task definitions, classification standards,
+              and evaluation-ready annotations.
+            </p>
+            <div class="experience-skills">
+              <span>Foundation Models</span><span>Geospatial AI</span><span>Taxonomy</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="timeline-dot"></div>
+          <div class="experience-date">
+            <span>Mar 2025 — Present</span>
+            <span class="current-label">Remote</span>
+          </div>
+          <div class="experience-content">
+            <div class="institution-row">
+              <span class="institution-monogram">Q</span>
+              <div>
+                <p>Qatar Computing Research Institute</p>
+                <span>Supervisor: Dr. Asgari</span>
+              </div>
+            </div>
+            <h3>Eye-Q: Visual Word Puzzle &amp; Image-to-Phrase Reasoning</h3>
+            <p>
+              Working on a multilingual benchmark that tests visual word puzzle
+              solving and image-to-phrase reasoning in vision-language models.
+            </p>
+            <div class="experience-skills">
+              <span>Multimodal AI</span><span>VLMs</span><span>Benchmarking</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="timeline-dot"></div>
+          <div class="experience-date">
+            <span>Jul 2025 — Sep 2025</span>
+          </div>
+          <div class="experience-content">
+            <div class="institution-row">
+              <span class="institution-monogram">E</span>
+              <div>
+                <p>EPFL · ML4ED</p>
+                <span>Prof. Tanja Käser · Supervisor: Parsa Neshei</span>
+              </div>
+            </div>
+            <h3>NLP for Reflective Writing Support</h3>
+            <p>
+              Investigated retrieval-augmented generation and topic modeling for
+              educational tools that retrieve relevant examples and provide useful,
+              grounded feedback on students’ reflective writing.
+            </p>
+            <div class="experience-skills">
+              <span>Educational NLP</span><span>RAG</span><span>Topic Modeling</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell honors-strip reveal" aria-label="Selected honors">
+      <div>
+        <span>Selected honors</span>
+        <strong>National Entrance Exam · Rank 13</strong>
+      </div>
+      <div>
+        <span>Mathematics &amp; Physics</span>
+        <strong>Top 0.01%</strong>
+      </div>
+      <div>
+        <span>Foreign Languages · Rank 50</span>
+        <strong>Top 0.03%</strong>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell contact-section">
+      <div class="contact-card reveal">
+        <p class="section-kicker">Let’s connect</p>
+        <h2>Interested in reliable AI,<br>multimodal reasoning, or a collaboration?</h2>
+        <p>
+          I’m always glad to discuss research ideas, benchmarks, and opportunities
+          at the intersection of language, vision, reasoning, and trust.
+        </p>
+        <a class="button button-primary" href="mailto:asalmskin82@gmail.com">
+          asalmskin82@gmail.com
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M5 12h14M13 6l6 6-6 6"></path>
+          </svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <div>
+      <span class="footer-mark">AM</span>
+      <p>Designed for research, built for the web.</p>
+    </div>
+    <p>© <span id="year"></span> Asal Meskin</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
