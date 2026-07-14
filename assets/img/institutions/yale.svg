@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Yale University</title>
+  <rect width="64" height="64" rx="14" fill="#00356b"/>
+  <path fill="#fff" d="M14 14h13v4h-2l9 14 8-14h-3v-4h12v4h-3L36 37v9h6v4H22v-4h6v-9L17 18h-3z"/>
+</svg>

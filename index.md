@@ -14,10 +14,22 @@ I study Computer Engineering at Sharif University of Technology. My research int
 </nav>
 
 <div class="quick-facts" aria-label="Academic summary">
-  <div><span>Current</span><strong>Summer@EPFL · MLBIO</strong></div>
-  <div><span>Degree</span><strong>B.Sc. Computer Engineering</strong></div>
-  <div><span>GPA</span><strong>19.72 / 20</strong></div>
-  <div><span>Rank</span><strong>5th of 201 students</strong></div>
+  <div class="fact-card">
+    <img class="fact-icon" src="{{ '/assets/img/institutions/epfl.svg' | relative_url }}" alt="EPFL logo">
+    <div><span>Current</span><strong>Summer@EPFL · MLBIO</strong></div>
+  </div>
+  <div class="fact-card">
+    <img class="fact-icon" src="{{ '/assets/img/institutions/sharif.svg' | relative_url }}" alt="Sharif University logo">
+    <div><span>Degree</span><strong>B.Sc. Computer Engineering</strong></div>
+  </div>
+  <div class="fact-card">
+    <img class="fact-icon" src="{{ '/assets/img/institutions/scholar.svg' | relative_url }}" alt="Academic achievement icon">
+    <div><span>GPA</span><strong>19.72 / 20</strong></div>
+  </div>
+  <div class="fact-card">
+    <img class="fact-icon" src="{{ '/assets/img/institutions/scholar.svg' | relative_url }}" alt="Academic ranking icon">
+    <div><span>Rank</span><strong>5th of 201 students</strong></div>
+  </div>
 </div>
 
 <h2 id="research">Research Interests</h2>
@@ -79,7 +91,10 @@ I study Computer Engineering at Sharif University of Technology. My research int
 <div class="experience-list">
   <article class="experience-item">
     <div class="experience-topline">
-      <div><strong>EPFL · MLBIO</strong><span>Summer Research Internship</span></div>
+      <div class="institution-block">
+        <img class="institution-logo" src="{{ '/assets/img/institutions/epfl.svg' | relative_url }}" alt="EPFL logo">
+        <div class="institution-copy"><strong>EPFL · MLBIO</strong><span>Summer Research Internship</span></div>
+      </div>
       <time>Jul 2026 — Present</time>
     </div>
     <h3>Spatial Tissue Reconstruction</h3>
@@ -90,7 +105,10 @@ I study Computer Engineering at Sharif University of Technology. My research int
 
   <article class="experience-item">
     <div class="experience-topline">
-      <div><strong>Yale University · NLP Lab</strong><span>Research Internship</span></div>
+      <div class="institution-block">
+        <img class="institution-logo" src="{{ '/assets/img/institutions/yale.svg' | relative_url }}" alt="Yale University logo">
+        <div class="institution-copy"><strong>Yale University · NLP Lab</strong><span>Research Internship</span></div>
+      </div>
       <time>Jan 2026 — May 2026</time>
     </div>
     <h3>Faithful Confidence in Large Reasoning Models</h3>
@@ -101,7 +119,10 @@ I study Computer Engineering at Sharif University of Technology. My research int
 
   <article class="experience-item">
     <div class="experience-topline">
-      <div><strong>Qatar Computing Research Institute</strong><span>Research Internship</span></div>
+      <div class="institution-block">
+        <img class="institution-logo" src="{{ '/assets/img/institutions/qcri.svg' | relative_url }}" alt="Qatar Computing Research Institute logo">
+        <div class="institution-copy"><strong>Qatar Computing Research Institute</strong><span>Research Internship</span></div>
+      </div>
       <time>Nov 2025 — Jan 2026</time>
     </div>
     <h3>Eye-Q: Visual Word Puzzle and Image-to-Phrase Reasoning</h3>
@@ -112,7 +133,10 @@ I study Computer Engineering at Sharif University of Technology. My research int
 
   <article class="experience-item">
     <div class="experience-topline">
-      <div><strong>Qatar Computing Research Institute</strong><span>Research Internship</span></div>
+      <div class="institution-block">
+        <img class="institution-logo" src="{{ '/assets/img/institutions/qcri.svg' | relative_url }}" alt="Qatar Computing Research Institute logo">
+        <div class="institution-copy"><strong>Qatar Computing Research Institute</strong><span>Research Internship</span></div>
+      </div>
       <time>Mar 2025 — Present</time>
     </div>
     <h3>Geological Task Taxonomy for Foundation Models</h3>
@@ -123,7 +147,10 @@ I study Computer Engineering at Sharif University of Technology. My research int
 
   <article class="experience-item">
     <div class="experience-topline">
-      <div><strong>EPFL · ML4ED</strong><span>Summer Research Internship</span></div>
+      <div class="institution-block">
+        <img class="institution-logo" src="{{ '/assets/img/institutions/epfl.svg' | relative_url }}" alt="EPFL logo">
+        <div class="institution-copy"><strong>EPFL · ML4ED</strong><span>Summer Research Internship</span></div>
+      </div>
       <time>Jul 2025 — Sep 2025</time>
     </div>
     <h3>NLP for Reflective Writing Support</h3>
@@ -136,8 +163,20 @@ I study Computer Engineering at Sharif University of Technology. My research int
 <h2 id="honors">Selected Honors</h2>
 
 <div class="honors-grid">
-  <div><strong>Summer@EPFL</strong><span>MLBIO Research Intern · 2026</span></div>
-  <div><strong>Summer@EPFL</strong><span>ML4ED Research Intern · 2025</span></div>
-  <div><strong>Top 0.01%</strong><span>Rank 13 · National Entrance Exam</span></div>
-  <div><strong>Top 0.03%</strong><span>Rank 50 · Foreign Languages Track</span></div>
+  <div class="honor-item">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/epfl.svg' | relative_url }}" alt="EPFL logo">
+    <div><strong>Summer@EPFL</strong><span>MLBIO Research Intern · 2026</span></div>
+  </div>
+  <div class="honor-item">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/epfl.svg' | relative_url }}" alt="EPFL logo">
+    <div><strong>Summer@EPFL</strong><span>ML4ED Research Intern · 2025</span></div>
+  </div>
+  <div class="honor-item">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.svg' | relative_url }}" alt="Academic honor icon">
+    <div><strong>Top 0.01%</strong><span>Rank 13 · National Entrance Exam</span></div>
+  </div>
+  <div class="honor-item">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.svg' | relative_url }}" alt="Academic honor icon">
+    <div><strong>Top 0.03%</strong><span>Rank 50 · Foreign Languages Track</span></div>
+  </div>
 </div>
