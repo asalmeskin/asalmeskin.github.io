@@ -1,0 +1,174 @@
+---
+---
+
+@import "minimal-light";
+
+:root {
+  --site-accent: #0b4f7a;
+  --site-accent-soft: #eef5f9;
+  --site-border: #dfe7ec;
+  --site-muted: #66737d;
+}
+
+html { scroll-behavior: smooth; }
+body { font-size: 15px; line-height: 1.55; }
+.wrapper { width: 1000px; }
+header { width: 245px; padding-top: 3.25em; }
+section { width: 690px; padding-top: 3.25em; }
+
+.image.avatar img {
+  width: 142px;
+  height: 142px;
+  object-fit: cover;
+  padding: 0;
+  border: 1px solid var(--site-border);
+  box-shadow: 0 8px 28px rgba(30, 61, 80, 0.08);
+}
+
+h1 { margin-bottom: 10px; }
+h2 {
+  margin: 30px 0 14px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid var(--site-border);
+  font-size: 1.38rem;
+  scroll-margin-top: 18px;
+}
+h3 { margin: 0 0 6px; font-size: 1rem; line-height: 1.35; }
+p, ul, ol, table, pre, dl { margin-bottom: 12px; }
+
+.intro { font-size: 1.04rem; margin: 0 0 14px; }
+
+.section-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 16px;
+  margin: 0 0 18px;
+  font-size: 0.89rem;
+}
+.section-nav a { font-weight: 600; }
+
+.quick-facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  margin: 0 0 4px;
+  border: 1px solid var(--site-border);
+  border-radius: 8px;
+  background: var(--site-border);
+}
+.quick-facts div {
+  min-height: 58px;
+  padding: 11px 13px;
+  background: #fff;
+}
+.quick-facts span,
+.interest-item span,
+.honors-grid span,
+.experience-topline span {
+  display: block;
+  color: var(--site-muted);
+  font-size: 0.84rem;
+}
+.quick-facts strong { display: block; margin-top: 2px; }
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.interest-item {
+  padding: 12px 13px;
+  border: 1px solid var(--site-border);
+  border-radius: 8px;
+}
+.interest-item strong { display: block; margin-bottom: 4px; }
+.interest-item span { line-height: 1.45; }
+
+.publication-list,
+.experience-list { display: grid; gap: 0; }
+
+.publication-item,
+.experience-item {
+  padding: 15px 0 14px;
+  border-bottom: 1px solid var(--site-border);
+}
+.publication-item:first-child,
+.experience-item:first-child { padding-top: 2px; }
+.publication-item:last-child,
+.experience-item:last-child { border-bottom: 0; }
+.publication-item p,
+.experience-item p { margin: 5px 0; }
+
+.publication-meta,
+.experience-topline {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 5px;
+  color: var(--site-muted);
+  font-size: 0.82rem;
+}
+.publication-meta span:first-child {
+  color: var(--site-accent);
+  font-weight: 700;
+}
+
+.experience-topline div { min-width: 0; }
+.experience-topline strong { display: block; font-size: 0.95rem; }
+.experience-topline time { white-space: nowrap; }
+
+.muted { color: var(--site-muted); font-size: 0.88rem; }
+.item-links { font-size: 0.87rem; font-weight: 600; }
+.item-links a::after { content: " ↗"; }
+
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.tags span {
+  padding: 3px 8px;
+  border-radius: 999px;
+  background: var(--site-accent-soft);
+  color: var(--site-accent);
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.honors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.honors-grid div {
+  padding: 11px 13px;
+  border-left: 3px solid var(--site-accent);
+  background: var(--site-accent-soft);
+  border-radius: 4px;
+}
+.honors-grid strong { display: block; margin-bottom: 2px; }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --site-accent: #62c7f5;
+    --site-accent-soft: #272d38;
+    --site-border: #3b4350;
+    --site-muted: #aeb6c0;
+  }
+  .quick-facts div { background: #20212b; }
+}
+
+@media print, screen and (max-width: 960px) {
+  .wrapper { width: auto; }
+  header, section { width: auto; }
+  header { padding-top: 20px; }
+  section { padding-top: 24px; }
+}
+
+@media print, screen and (max-width: 560px) {
+  .quick-facts,
+  .interest-grid,
+  .honors-grid { grid-template-columns: 1fr; }
+  .publication-meta,
+  .experience-topline { display: block; }
+  .experience-topline time { display: block; margin-top: 3px; }
+  .section-nav { gap: 6px 12px; }
+}

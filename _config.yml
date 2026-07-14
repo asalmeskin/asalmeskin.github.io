@@ -1,0 +1,39 @@
+# Site identity
+title: Asal Meskin
+position: B.Sc. Computer Engineering Student
+affiliation: Sharif University of Technology
+affiliation_link: https://en.sharif.edu/
+email: asalmskin82@gmail.com
+
+# Search engine optimization
+lang: en-US
+keywords: Asal Meskin, trustworthy AI, natural language processing, multimodal reasoning, computer vision, Sharif University of Technology
+seo_title: Asal Meskin | Computer Engineering & AI Research
+description: Asal Meskin is a Computer Engineering student at Sharif University of Technology working on trustworthy AI, NLP, multimodal reasoning, and computer vision.
+canonical: https://asalmeskin.github.io/
+
+# Profile links
+google_scholar: https://scholar.google.com/citations?user=-LVy7FsAAAAJ
+github_link: https://github.com/asalmeskin
+linkedin: https://linkedin.com/in/asal-meskin-2144a025b
+
+# Images
+avatar: ./assets/img/avatar.png
+favicon: ./assets/img/favicon.png
+favicon_dark: ./assets/img/favicon-dark.png
+
+# Theme behavior
+enable_footnote: true
+auto_dark_mode: true
+font: "Sans Serif"
+
+# GitHub Pages theme
+remote_theme: yaoyao-liu/minimal-light
+plugins:
+  - jekyll-remote-theme
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE

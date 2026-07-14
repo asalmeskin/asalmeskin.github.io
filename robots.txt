@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://asalmeskin.github.io/sitemap.xml
