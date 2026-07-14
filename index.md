@@ -173,10 +173,10 @@ I study Computer Engineering at Sharif University of Technology. My research int
   </div>
   <div class="honor-item">
     <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Academic honor icon">
-    <div><strong>Top 0.01%</strong><span>Rank 13 · National Entrance Exam</span></div>
+    <div><strong>Top 0.01%</strong><span>Rank 13 · National Entrance Exam . Mathematics and Physics Track</span></div>
   </div>
   <div class="honor-item">
     <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Academic honor icon">
-    <div><strong>Top 0.03%</strong><span>Rank 50 · Foreign Languages Track</span></div>
+    <div><strong>Top 0.03%</strong><span>Rank 50 · National Entrance Exam . Foreign Languages Track</span></div>
   </div>
 </div>
