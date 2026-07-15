@@ -59,7 +59,7 @@ I study Computer Engineering at Sharif University of Technology. My research int
   <article class="publication-item">
     <div class="publication-meta"><span>2026</span><span>Spotlight · AI4Good at ICML 2026</span></div>
     <h3>Quantifying Faithful Confidence Expression in Large Reasoning Models</h3>
-    <p>Areeb Gani, <strong>Asal Meskin</strong>, G.K.M. Liu, Arman Cohan</p>
+    <p>Areeb Gani*, <strong>Asal Meskin*</strong>, G.K.M. Liu*, Arman Cohan</p>
     <p class="muted">Under review at NeurIPS 2026</p>
     <p class="item-links"><a href="https://arxiv.org/abs/2606.03969" target="_blank" rel="noopener noreferrer">arXiv</a></p>
   </article>
@@ -67,21 +67,21 @@ I study Computer Engineering at Sharif University of Technology. My research int
   <article class="publication-item">
     <div class="publication-meta"><span>2026</span><span>arXiv preprint</span></div>
     <h3>Eye-Q: A Multilingual Benchmark for Visual Word Puzzle Solving and Image-to-Phrase Reasoning</h3>
-    <p>Ali Najar, Alireza Mirrokni, Arshia Izadyari, Sadegh Mohammadian, Amir Homayoon Sharifizade, <strong>Asal Meskin</strong>, Mobin Bagherian, Ehsaneddin Asgari</p>
+    <p>Ali Najar, Alireza Mirrokni, <strong>Asal Meskin*</strong>, Arshia Izadyari*, Sadegh Mohammadian*, Amir Homayoon Sharifizade*, Mobin Bagherian, Ehsaneddin Asgari</p>
     <p class="item-links"><a href="https://arxiv.org/abs/2601.03400" target="_blank" rel="noopener noreferrer">arXiv</a></p>
   </article>
 
   <article class="publication-item">
     <div class="publication-meta"><span>2025</span><span>arXiv preprint</span></div>
     <h3>FIRE: Faithful Interpretable Recommendation Explanations</h3>
-    <p>S.M.F. Sani, <strong>Asal Meskin</strong>, Mohammad Amanlou, Hamid R. Rabiee</p>
+    <p>S.M.F. Sani, <strong>Asal Meskin*</strong>, Mohammad Amanlou*, Hamid R. Rabiee</p>
     <p class="item-links"><a href="https://arxiv.org/abs/2508.05225" target="_blank" rel="noopener noreferrer">arXiv</a></p>
   </article>
 
   <article class="publication-item">
     <div class="publication-meta"><span>2025</span><span>arXiv preprint</span></div>
     <h3>Hydra: Dual Exponentiated Memory for Multivariate Time Series Analysis</h3>
-    <p><strong>Asal Meskin</strong>, Alireza Mirrokni, Ali Najar, Ali Behrouz</p>
+    <p><strong>Asal Meskin*</strong>, Alireza Mirrokni*, Ali Najar*, Ali Behrouz</p>
     <p class="item-links"><a href="https://arxiv.org/abs/2511.00989" target="_blank" rel="noopener noreferrer">arXiv</a></p>
   </article>
 </div>
