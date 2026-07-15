@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+  <title id="title">Sharif University of Technology</title>
+  <rect width="64" height="64" rx="14" fill="#173f68"/>
+  <path fill="none" stroke="#fff" stroke-width="4" stroke-linejoin="round" d="M32 11l6.5 12 13.5 2-9.5 9.5 2.3 13.5L32 42l-12.8 6 2.3-13.5L12 25l13.5-2z"/>
+  <circle cx="32" cy="32" r="6" fill="#fff"/>
+</svg>
