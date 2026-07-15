@@ -7,7 +7,8 @@ I study Computer Engineering at Sharif University of Technology. My research int
 </p>
 
 <nav class="section-nav" aria-label="Page sections">
-  <a href="#research">Research</a>
+  <a href="#education">Education</a>
+  <a href="#research">Research Interests</a>
   <a href="#publications">Publications</a>
   <a href="#experience">Experience</a>
   <a href="#honors">Honors</a>
@@ -16,21 +17,77 @@ I study Computer Engineering at Sharif University of Technology. My research int
 <div class="quick-facts" aria-label="Academic summary">
   <div class="fact-card">
     <img class="fact-icon" src="{{ '/assets/img/institutions/epfl.svg' | relative_url }}" alt="EPFL logo">
-    <div><span>Current</span><strong>Summer@EPFL · MLBIO</strong></div>
+    <div>
+      <span>Current</span>
+      <strong>Summer@EPFL · MLBIO</strong>
+    </div>
   </div>
+
   <div class="fact-card">
     <img class="fact-icon" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Sharif University logo">
-    <div><span>Degree</span><strong>B.Sc. Computer Engineering</strong></div>
+    <div>
+      <span>Degree</span>
+      <strong>B.Sc. Computer Engineering</strong>
+    </div>
   </div>
+
   <div class="fact-card">
     <img class="fact-icon" src="{{ '/assets/img/institutions/scholar.svg' | relative_url }}" alt="Academic achievement icon">
-    <div><span>GPA</span><strong>19.72 / 20</strong></div>
+    <div>
+      <span>GPA</span>
+      <strong>19.72 / 20</strong>
+    </div>
   </div>
+
   <div class="fact-card">
     <img class="fact-icon" src="{{ '/assets/img/institutions/scholar.svg' | relative_url }}" alt="Academic ranking icon">
-    <div><span>Rank</span><strong>5th of 201 students</strong></div>
+    <div>
+      <span>Rank</span>
+      <strong>5th of 201 students</strong>
+    </div>
   </div>
 </div>
+
+<h2 id="education">Education</h2>
+
+<div class="experience-list">
+  <article class="experience-item">
+    <div class="experience-topline">
+      <div class="institution-block">
+        <img
+          class="institution-logo"
+          src="{{ '/assets/img/institutions/sharif.png' | relative_url }}"
+          alt="Sharif University of Technology logo"
+        >
+
+        <div class="institution-copy">
+          <strong>Sharif University of Technology</strong>
+          <span>B.Sc. in Computer Engineering</span>
+        </div>
+      </div>
+
+      <time>Sep 2022 — Present</time>
+    </div>
+
+    <p>
+      GPA: <strong>19.72 / 20</strong> · Ranked
+      <strong>5th among 201 students</strong>
+    </p>
+
+    <p class="muted">Selected coursework</p>
+
+    <div class="tags">
+      <span>Machine Learning (20)</span>
+      <span>Natural Language Processing (20)</span>
+      <span>Artificial Intelligence (20)</span>
+      <span>Convex Optimization (20)</span>
+      <span>Linear Algebra (20)</span>
+      <span>Probability &amp; Statistics (20)</span>
+      <span>Intorduction to Bioinformatics (20)</span>
+    </div>
+  </article>
+</div>
+
 
 <h2 id="research">Research Interests</h2>
 
