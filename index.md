@@ -172,11 +172,11 @@ I study Computer Engineering at Sharif University of Technology. My research int
     <div><strong>Summer@EPFL</strong><span>ML4ED Research Intern · 2025</span></div>
   </div>
   <div class="honor-item">
-    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Academic honor icon">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/star.svg' | relative_url }}" alt="Academic honor icon">
     <div><strong>Top 0.01%</strong><span>Rank 13 · National Entrance Exam . Mathematics and Physics Track</span></div>
   </div>
   <div class="honor-item">
-    <img class="honor-logo" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Academic honor icon">
+    <img class="honor-logo" src="{{ '/assets/img/institutions/star.svg' | relative_url }}" alt="Academic honor icon">
     <div><strong>Top 0.03%</strong><span>Rank 50 · National Entrance Exam . Foreign Languages Track</span></div>
   </div>
 </div>
