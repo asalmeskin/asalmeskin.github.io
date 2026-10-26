@@ -364,7 +364,7 @@ I study Computer Engineering at Sharif University of Technology. My research int
   </article>
 </div>
 
-<h2 id="honors">Honors and Awards</h2>
+<h2 id="honors">Selected Honors and Programs</h2>
 
 <div class="honors-grid">
   <div class="honor-item">
