@@ -17,39 +17,6 @@ I study Computer Engineering at Sharif University of Technology. My research int
   <a href="#skills">Skills</a>
 </nav>
 
-<div class="quick-facts" aria-label="Academic summary">
-  <div class="fact-card">
-    <img class="fact-icon" src="{{ '/assets/img/institutions/epfl.svg' | relative_url }}" alt="EPFL logo">
-    <div>
-      <span>Research</span>
-      <strong>Summer@EPFL · MLBIO</strong>
-    </div>
-  </div>
-
-  <div class="fact-card">
-    <img class="fact-icon" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Sharif University logo">
-    <div>
-      <span>Degree</span>
-      <strong>B.Sc. Computer Engineering</strong>
-    </div>
-  </div>
-
-  <div class="fact-card">
-    <img class="fact-icon" src="{{ '/assets/img/institutions/scholar.svg' | relative_url }}" alt="Academic achievement icon">
-    <div>
-      <span>GPA</span>
-      <strong>19.75 / 20</strong>
-    </div>
-  </div>
-
-  <div class="fact-card">
-    <img class="fact-icon" src="{{ '/assets/img/institutions/scholar.svg' | relative_url }}" alt="Academic ranking icon">
-    <div>
-      <span>Rank</span>
-      <strong>4th of 198 students</strong>
-    </div>
-  </div>
-</div>
 
 <h2 id="education">Education</h2>
 
