@@ -317,52 +317,7 @@ I study Computer Engineering at Sharif University of Technology. My research int
   </article>
 </div>
 
-<h2 id="teaching">Teaching Experience</h2>
 
-<div class="experience-list">
-  <article class="experience-item">
-    <div class="experience-topline">
-      <div class="institution-block">
-        <img class="institution-logo" src="{{ '/assets/img/institutions/sharif.png' | relative_url }}" alt="Sharif University of Technology logo">
-        <div class="institution-copy">
-          <strong>Sharif University of Technology</strong>
-          <span>Teaching Assistant</span>
-        </div>
-      </div>
-      <time>2023 — 2026</time>
-    </div>
-
-    <p>Head TA for Linear Algebra and Head of Exams for Machine Learning. Teaching assistant for Machine Learning, Artificial Intelligence, High-Dimensional Statistics, Engineering Probability and Statistics, and Theory of Languages and Machines.</p>
-  </article>
-</div>
-
-<h2 id="projects">Selected Projects</h2>
-
-<div class="publication-list">
-  <article class="publication-item">
-    <h3>CULTUREMAP-IR</h3>
-    <p>Built a Persian retrieval benchmark and fine-tuned multilingual dense retrievers with LoRA and FAISS.</p>
-    <p class="item-links">
-      <a href="https://github.com/asalmeskin/CULTUREMAP-IR" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </p>
-  </article>
-
-  <article class="publication-item">
-    <h3>Bilingual Movie Genre Classification</h3>
-    <p>Built a bilingual movie-genre classifier with text preprocessing, class balancing, feature engineering, and model fine-tuning.</p>
-    <p class="item-links">
-      <a href="https://github.com/asalmeskin/MovieGenreClassifier-project" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </p>
-  </article>
-
-  <article class="publication-item">
-    <h3>Predictive Fuzzy Deep Reinforcement Learning for MEC</h3>
-    <p>Implemented a predictive fuzzy deep reinforcement learning framework for task offloading in mobile edge computing.</p>
-    <p class="item-links">
-      <a href="https://github.com/alirezamirrokni/predictive-fuzzy-drl-mec" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </p>
-  </article>
-</div>
 
 <h2 id="honors">Selected Honors and Programs</h2>
 
@@ -400,13 +355,4 @@ I study Computer Engineering at Sharif University of Technology. My research int
   </div>
 </div>
 
-<h2 id="skills">Skills</h2>
 
-<div class="experience-list">
-  <article class="experience-item">
-    <p><strong>Programming:</strong> Python, C++, C, Java, R</p>
-    <p><strong>Machine Learning and Deep Learning:</strong> PyTorch, Hugging Face Transformers, scikit-learn, LoRA, SHAP</p>
-    <p><strong>Data and Retrieval:</strong> NumPy, Pandas, SciPy, FAISS, BERTopic, Matplotlib</p>
-    <p><strong>Languages:</strong> Persian (Native), English (Fluent)</p>
-  </article>
-</div>
