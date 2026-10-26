@@ -11,10 +11,8 @@ I study Computer Engineering at Sharif University of Technology. My research int
   <a href="#research">Research Interests</a>
   <a href="#publications">Publications</a>
   <a href="#experience">Research Experience</a>
-  <a href="#teaching">Teaching</a>
   <a href="#projects">Projects</a>
   <a href="#honors">Honors</a>
-  <a href="#skills">Skills</a>
 </nav>
 
 
